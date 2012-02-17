@@ -545,7 +545,7 @@ font argument link= maxlength= method= name= prompt= rel= rev= rows= rowspan=
 font argument shape= size= src= text= title= type= usemap= valign= value=
 font argument vlink= vspace= width=
 font argument ismap noshade nowrap
-color argument like keyword green
+color argument like keyword Blue3
 # Netscape-specific tags
 font nonportable <nobr </nobr <wbr
 # Part of HTML 3.2, but not supported by Netscape
@@ -1751,7 +1751,7 @@ font argument link= maxlength= method= name= prompt= rel= rev= rows= rowspan=
 font argument shape= size= src= text= title= type= usemap= valign= value=
 font argument vlink= vspace= width=
 font argument ismap noshade nowrap
-color argument like keyword green
+color argument like keyword Blue3
 # Netscape-specific tags
 font nonportable <nobr </nobr <wbr
 # Part of HTML 3.2, but not supported by Netscape
