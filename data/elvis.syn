@@ -35,7 +35,7 @@ foreign .h
 keyword auto break case char const continue default delete defined do
 keyword double else enum extern far float friend for goto if int long
 keyword near register return short signed sizeof static struct switch
-keyword typedef union unsigned void volatile while
+keyword typedef union unless unsigned void volatile while count
 font variable -> .
 #comment //
 comment /* */
