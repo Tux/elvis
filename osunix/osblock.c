@@ -143,8 +143,10 @@ ELVBOOL blkopen(force, buf)
 				      : ((fd = open(dfltname, O_RDWR|O_CREAT|O_EXCL|O_BINARY, 0600)) < 0));
 		o_session = toCHAR(dfltname);
 		o_tempsession = ElvTrue;
+		/* ÷÷÷ PROCURA
 		if (oldcount > 0)
 			msg(MSG_WARNING, "[d]skipping $1 old session file($1!=1?\"s\")", oldcount);
+			*/
 	}
 
 	/* Try to open the session file (if not opened in the above loop) */
