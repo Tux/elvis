@@ -316,7 +316,7 @@ void optglobinit()
 	optpreset(o_spellautoload, ElvTrue, OPT_HIDE);
 	optpreset(o_locale, NULL, OPT_HIDE);
 	optpreset(o_mkexrcfile, NULL, OPT_HIDE);
-	optpreset(o_prefersyntax, 'n', OPT_HIDE); /* never */
+	optpreset(o_prefersyntax, 'w', OPT_HIDE); /* never => writable */
 	optpreset(o_eventignore, NULL, OPT_HIDE);
 	optpreset(o_eventerrors, ElvFalse, OPT_HIDE);
 	optpreset(o_tweaksection, ElvTrue, OPT_HIDE);
