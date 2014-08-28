@@ -30,7 +30,7 @@ other allcaps initialcaps initialpunct final_t
 # but if we must guess, then C++ is the better choice because C++ declarations
 # use a lot of keywords which are absent from C.
 language c
-extension .c .ic .ec
+extension .c .ic .ec .xs
 foreign .h
 keyword auto break case char const continue default delete defined do
 keyword double else enum extern far float friend for goto if int long
@@ -342,7 +342,7 @@ inword _'
 string "
 strnewline empty
 character '
-regexp /?#:
+regexp /
 useregexp (,~&| if elsif unless while until split m qr and or
 useregsub s tr
 other allcaps
@@ -534,9 +534,9 @@ keyword <h4 </h4 <h5 </h5 <h6 </h6 <head </head <hr <html </html
 keyword <i </i <img <input <isindex <kbd </kbd <li </li <link <map </map
 keyword <menu </menu <meta <ol </ol <option <p </p <param <pre </pre
 keyword <samp </samp <script </script <select </select <small </small
-keyword <strong </strong <style </style <sub </sub <sup </sup <table </table
-keyword <td </td <textarea <th </th <title </title <tr </tr <tt </tt <u </u
-keyword <ul </ul <var </var >
+keyword <span </span <strong </strong <style </style <sub </sub <sup </sup
+keyword <table </table <td </td <textarea <th </th <title </title <tr </tr
+keyword <tt </tt <u </u <ul </ul <var </var >
 # Standard parameters for HTML 3.2
 font argument action= align= alink= alt= background= bgcolor= border=
 font argument cellpadding= cellspacing= code= codebase= color= cols= colspan=
@@ -1117,11 +1117,11 @@ keyword DATA_TYPE DATE DB_LENGTH DB_TYPE DBMS_ERROR DEFAULT DEFINE DEINSTALL
 keyword DELETE DELETE_ALLOWED DESC DESCENDING DIMENSION DISABLE DISABLED DISPLAY
 keyword DISPLAY_FORMAT DISPLAY_JUSTIFY DROP
 keyword ECHOED ELSE ENABLE END END_SQL ERASE ESTIMATED COUNT ESTIMATING EVENT
-keyword EVENTS EXCEPT EXECUTING EXIT EXTERN
+keyword EVENTS EXCEPT EXECUTE_SQL EXECUTING EXIT EXTERN
 keyword FALSE FIELD FIELD_LENGTH FIELD_NAME FILE FILE_PATH FIND FIND_ACTION
 keyword FIND_ALLOWED FIND_COUNT FIND_LABEL FIND_PROMPT FINDABLE FIRST FIRST_FIELD
-keyword FIRST_RECORD FLOAT FOR FORM FORM_NAME FORMS FROM FUNCTION FUNCTION_KEY
-keyword FUNCTIONS FYI_MESSAGE
+keyword FIRST_RECORD FLOAT FOR FORM FORM_NAME FORMS FREE_SQL FROM FUNCTION
+keyword FUNCTION_KEY FUNCTIONS FYI_MESSAGE
 keyword GRANT GROUP
 keyword HANDLER HEIGHT HELP HELP_ARCHIVE HELP_FORM_NAME HELP_FORM_COL
 keyword HELP_FORM_ROW
@@ -1133,8 +1133,8 @@ keyword MATRIX MENU_LABEL MULTI_VALUED
 keyword NEXT NEXT_FIELD NEXT_FORM NEXT_RECORD NEXT_SET NO_CONSISTENCY NONE NOT
 keyword NULL NUMBER_OF_ARRAYS NUMERIC
 keyword OCCURRENCES ON OPERATION OR ORDER ORDERED_BY OUTPUT
-keyword PAGE PIPELINE PREV_FIELD PREVIOUS_FIELD PREV_FORM PREVIOUS_FORM
-keyword PREVIOUS_RECORD PREV_SET PREVIOUS_SET PREVIOUS
+keyword PAGE PIPELINE PREPARE_SQL PREV_FIELD PREVIOUS_FIELD PREV_FORM
+keyword PREVIOUS_FORM PREVIOUS_RECORD PREV_SET PREVIOUS_SET PREVIOUS
 keyword QUEUE
 keyword RECORD RECORD_CONSISTENCY REF REFERENCE REFRESH REJECT REPAINT REPEAT
 keyword REPEATED REQUIRED RESTART RESULT RETRIEVE RETRIEVE_VALUE RETURN REVERSE
