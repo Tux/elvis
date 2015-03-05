@@ -309,7 +309,7 @@ other allcaps initialcaps
 #
 # Entry was further enchanced by Tomasz Konojacki (me@xenu.tk).
 language perl  
-extension .pl .pm
+extension .pl .pm .PL .t
 keyword BEGIN END CORE __END__ __FILE__ __LINE__ AUTOLOAD DESTROY INIT
 keyword abs accept alarm and atan2 bind binmode bless caller chdir chmod
 keyword chomp chop chown chr chroot close closedir cmp connect continue cos
@@ -1407,7 +1407,7 @@ function (
 # <oord@cs.utwente.nl>.  Any keywords which weren't common to both definitions
 # have been moved to "font ephasized" lines.
 language sql
-extension .sql
+extension .sql .psql .osql
 #Common
 keyword access add all alter and any as asc begin between by char check
 keyword close cluster column commit connect constraint create current
